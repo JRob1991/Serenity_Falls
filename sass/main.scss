@@ -10,6 +10,39 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 35px;
+}
+
+// Test
+#container {
+    width:97%;
+    height: 150px;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:125px;
+    height: 125px;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:750px;
+    height: 20px;
+}
+
+#right {
+    float:right;
+    width:240px;
+    height: 20px;
+}
+
+///////////
+
 .backgroundImg {
   background-image: url("images/waterfall.jpg");
 }
