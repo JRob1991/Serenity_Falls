@@ -2130,7 +2130,7 @@ div.borderNew {
 #servicesLogo {
   height: 60px;
   margin: 0 auto;
-  margin-top: 10px; }
+  margin-top: 25px; }
 
 #container {
   width: 95%;
@@ -2182,6 +2182,30 @@ div.borderNew {
     .col-3 {
       width: 150px;
       margin: 10px; } }
+
+li.block {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  li.block:last-child {
+    margin-right: 0; }
+  li.block:nth-child(4n) {
+    margin-right: 0; }
+  li.block:nth-child(4n+1) {
+    clear: left; }
+
+.row {
+  width: 80%;
+  margin: 0 auto; }
+
+.col img {
+  width: 100%;
+  padding-top: 30px; }
+
+.col {
+  box-sizing: border-box;
+  padding: 10px; }
 
 .backgroundImg {
   background-image: url("images/waterfall.jpg"); }
