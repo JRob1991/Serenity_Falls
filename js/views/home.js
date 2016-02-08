@@ -2,7 +2,9 @@ import React from 'react';
 import NavBar from '../components/navbar';
 import GridListImg from '../components/cardavatar';
 import BackgroundImg from '../components/background';
+import BackgroundFull from '../components/backgroundfull';
 import QuoteField from '../components/quote';
+import Border from '../components/border';
 
 export default React.createClass({
 
@@ -17,9 +19,6 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <div className="bgPadding">
-        <BackgroundImg></BackgroundImg>
-        </div>
         <GridListImg></GridListImg>
       </div>
     );
