@@ -1,5 +1,9 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+@import "bourbon";
+@import "neat";
+@import "font-awesome";
+
+$mobile: new-breakpoint(max-width 600px);
+$max-width: em(1088) !default;
 
 html {
   background-color: #e2ebf3;
@@ -33,15 +37,11 @@ h2 {
 
 .border {
   font-size: 20px;
-  color: #FCFEFF;
-  text-align: center;
-  border-style: dotted black;
-  border-color: #00bcd4;
-  margin-bottom: 20px;
-  width: 100%;
+  background-color: #00BCD4;
+  width: 50%;
   margin: 0 auto;
-  padding: 0;
-  height: 400px;
+  height: 2px;
+  opacity: 0.5;
 }
 
 div.borderNew {
@@ -58,7 +58,7 @@ div.borderNew {
 #servicesLogo {
   height: 60px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 // TopNav
@@ -87,6 +87,28 @@ div.borderNew {
     width:200px;
     height: 20px;
 }
+
+.pic-container {
+  @include outer-container;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.col-3 {
+  padding: 15px;
+  border-radius: 50%;
+  @include span-columns(3);
+  @include omega(4n);
+    @include media($mobile) {
+    width: 150px;
+    margin: 10px;
+    }
+}
+
+.borderSlick {
+
+}
+
 
 ///////////
 
