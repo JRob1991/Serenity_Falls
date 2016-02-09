@@ -2093,6 +2093,28 @@ body {
   background: #D8D1CB;
   margin: 0 auto; }
 
+#container {
+  width: 95%;
+  height: 140px;
+  text-align: center; }
+
+#left {
+  float: left;
+  width: 200px;
+  height: 125px; }
+
+#center {
+  display: inline-block;
+  margin: 0 auto;
+  width: 750px;
+  height: 20px;
+  margin-left: 20px; }
+
+#right {
+  float: right;
+  width: 200px;
+  height: 20px; }
+
 h2 {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 35px; }
@@ -2131,28 +2153,6 @@ div.borderNew {
   height: 60px;
   margin: 0 auto;
   margin-top: 25px; }
-
-#container {
-  width: 95%;
-  height: 140px;
-  text-align: center; }
-
-#left {
-  float: left;
-  width: 200px;
-  height: 125px; }
-
-#center {
-  display: inline-block;
-  margin: 0 auto;
-  width: 750px;
-  height: 20px;
-  margin-left: 20px; }
-
-#right {
-  float: right;
-  width: 200px;
-  height: 20px; }
 
 .pic-container {
   max-width: 68em;
@@ -2193,8 +2193,8 @@ div.borderNew {
 
 .col {
   box-sizing: border-box;
-  padding: 10px;
-  position: relative; }
+  position: relative;
+  padding: 10px; }
 
 .col > .center-me {
   position: absolute;
@@ -2218,6 +2218,12 @@ div.borderNew {
   -moz-filter: none;
   -ms-filter: none;
   filter: none; }
+
+.col h4 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #00BCD4; }
 
 img.socialMediaLogo {
   -webkit-filter: none;
