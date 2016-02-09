@@ -2193,9 +2193,19 @@ div.borderNew {
 
 .col {
   box-sizing: border-box;
-  padding: 10px; }
+  padding: 10px;
+  position: relative; }
 
-.col img:hover {
+.col > .center-me {
+  position: absolute;
+  color: #FF0000;
+  font-size: 18px;
+  left: 50%;
+  top: 58%;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 0 0 1px black; }
+
+.col img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -2203,11 +2213,11 @@ div.borderNew {
   filter: gray;
   /* IE 6-9 */ }
 
-h2 {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 100%; }
+.col img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none; }
 
 img.socialMediaLogo {
   -webkit-filter: none;
