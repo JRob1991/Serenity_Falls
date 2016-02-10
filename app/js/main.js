@@ -762,7 +762,11 @@ exports['default'] = _react2['default'].createClass({
   },
 
   render: function render() {
-    return _react2['default'].createElement('div', null);
+    return _react2['default'].createElement(
+      'div',
+      null,
+      _react2['default'].createElement(_componentsCardavatar2['default'], null)
+    );
   }
 
 });
